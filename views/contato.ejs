@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/public/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/public/css/styleSite.css" />
+    <title>Inesquecível | Moda Feminina</title>
+  </head>
+
+  <body>
+    <!----------------Início da barra de navegação---------------->
+    <nav class="navbar navbar-expand-lg" style="background-color: rgba(255, 255, 255, 0);">
+      <div class="container-fluid">
+        <a
+          class="navbar-brand"
+          href="http://localhost:5000/inesquecivel/produtos"
+          ><img
+            src="/public/img/logo.png"
+            class="imgNav"
+            alt="Inesquescível moda feminina"
+        /></a>
+        <button class="navbar-toggler buttonNav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse positionMenu"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link styleMenu"
+                href="http://localhost:5000/inesquecivel/sobre"
+                >Sobre</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link styleMenu"
+                href="http://localhost:5000/inesquecivel/produtos"
+                >Produtos</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link styleMenu"
+                href="http://localhost:5000/inesquecivel/localizacao"
+                >Localização</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link styleMenu"
+                href="http://localhost:5000/inesquecivel/contato"
+                >Contato</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!----------------Fim da barra de navegação---------------->
+
+ <!-------------------Início do carrossel------------------->
+
+ <div
+ id="carouselExampleIndicators"
+ class="carousel slide"
+ data-bs-ride="carousel"
+>
+ <div class="carousel-indicators">
+   <button
+     type="button"
+     data-bs-target="#carouselExampleIndicators"
+     data-bs-slide-to="0"
+     class="active"
+     aria-current="true"
+     aria-label="Slide 1"
+   ></button>
+   <button
+     type="button"
+     data-bs-target="#carouselExampleIndicators"
+     data-bs-slide-to="1"
+     aria-label="Slide 2"
+   ></button>
+   <button
+     type="button"
+     data-bs-target="#carouselExampleIndicators"
+     data-bs-slide-to="2"
+     aria-label="Slide 3"
+   ></button>
+ </div>
+ <div class="carousel-inner">
+   <div class="carousel-item active">
+     <img
+       src="/public/img/carrossel1.png"
+       class="d-block w-100"
+       alt="Inesquecível Moda Feminina"
+     />
+   </div>
+   <div class="carousel-item">
+     <img
+       src="/public/img/carrossel2.png"
+       class="d-block w-100"
+       alt="Inesquecível Moda Feminina"
+     />
+   </div>
+   <div class="carousel-item">
+     <img
+       src="/public/img/carrossel3.png"
+       class="d-block w-100"
+       alt="Inesquecível Moda Feminina"
+     />
+   </div>
+ </div>
+ <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+   <span class="visually-hidden">Previous</span>
+ </button>
+ <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+   <span class="carousel-control-next-icon" aria-hidden="true"></span>
+   <span class="visually-hidden">Next</span>
+ </button>
+</div>
+
+<!-------------------Fim do carrossel------------------->
+
+  <!-- ---------------Inicio do Rodapé--------------- -->
+  <div class="card text-center">
+    <div class="card-body fundo2">
+      <a href="https://pt-br.facebook.com/" target="_blank">
+        <img src="/public/img/facebook.png" class="icon" />
+      </a>
+      <a href="https://www.instagram.com/" target="_blank">
+        <img src="/public/img/instagram.png" class="icon" />
+      </a>
+      <h5
+        class="card-title endereco"
+        style="font-size: 18pt; font-weight: 600"
+      >
+        Onde estamos?
+      </h5>
+      <p class="card-text endereco">
+        Rua São José do Campestre, 390, Jardim Danfer, CEP 03728-000 | São
+        Paulo, SP<br />
+        Telefone: (11) 2621-6085 | Celular: (11) 96455-6220
+      </p>
+      <a
+        href="https://wa.me/11964556220?text=Olá, tenho interesse em comprar um produto."
+        target="_blank"
+        class="btn btn-success"
+        ><i class="bi bi-whatsapp"></i> WhatsApp</a
+      >
+    </div>
+  </div>
+
+  <!-- ---------------Fim do Rodapé--------------- -->
+
+    <script src="/public/js/bootstrap.min.js"></script>
+  </body>
+</html>

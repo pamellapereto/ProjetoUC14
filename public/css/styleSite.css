@@ -1,0 +1,136 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /*border: solid 1px yellow;*/
+}
+
+.imgNav {
+  width: 240px;
+  height: auto;
+}
+
+.styleMenu {
+  color: #bf6363;
+  font-family: Cochin;
+  font-size: 16pt;
+  font-weight: 500;
+}
+
+.buttonNav {
+  background-color: #d2818188;
+  margin-right: 8%;
+}
+
+.positionMenu {
+  margin-left: 5%;
+
+}
+
+.styleMenu:hover {
+  color: #ffffff;
+  background-color: #cf7d7db7;
+  border-radius: 5px;
+  transition: ease 0.6s;
+}
+
+
+.icon {
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 1%;
+  width: 35px;
+  height: 35px;
+  transition: transform 0.8s ease;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+}
+body {
+  background-color: #ffffff;
+}
+
+.fundo2 {
+  background-color: #ffeaea;
+  color: rgb(0, 0, 0);
+}
+
+.fundo2 a {
+  text-decoration: none;
+  font-size: 15pt;
+  color: #fff;
+}
+
+.endereco {
+  font-family: Cochin;
+  font-size: 14pt;
+  color: #000000;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  text-align: center;
+  line-height: 25pt;
+}
+
+#vestuario {
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#container {
+  width: 20%;
+  margin-left: 4%;
+  margin-bottom: 4%;
+  margin-top: 18%;
+  background-color: rgb(248, 226, 232);
+  box-shadow: 0px 1.5px 5px rgba(196, 0, 59, 0.568);
+  border-radius: 5px;
+  padding: 1%;
+}
+
+#container:hover {
+  transition: ease 2s;
+  transform: scale(1.15);
+  cursor: pointer;
+  box-shadow: 0px 0px 0px 100vw rgba(196, 0, 59, 0.658);
+
+}
+
+.imgP {
+  width: 100%;
+  margin-top: -90%;
+  margin-bottom: 7%;
+  border-radius: 5px;
+  border-bottom: 1px solid rgba(196, 0, 59, 0.261);
+}
+
+#customProd h5, p  {
+  font-family: Cochin;
+  text-align: left;
+  font-size: 22px;
+  color: rgba(117, 0, 35, 0.959);
+  text-shadow: 0.3px 0.3px 1px black;
+  line-height: 18px;
+}
+#customProd hr {
+  color: rgba(177, 11, 61, 0.959);
+}
+.precoP {
+  background-color: rgb(122, 2, 38);
+  color: white;
+  width: 160px;
+  height: 33px;
+  border-radius: 5px;
+  text-align: center;
+  font-family: Cochin;
+  font-weight: 600;
+  text-shadow: 1px 1px 2px black;
+  font-size: 18pt;
+  margin-top: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgb(63, 2, 21);
+  box-shadow: 0px 2px 3px rgb(0, 0, 0);
+  padding-top: 3%
+}

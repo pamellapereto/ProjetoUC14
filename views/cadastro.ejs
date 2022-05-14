@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="/public/css/styleCadastro.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <title>Cadastro de produtos</title>
+  </head>
+
+  <body>
+    <h1>Cadastro de produtos</h1>
+    <div id="formulario">
+      <form
+        action="/inesquecivel/cadastro"
+        method="post"
+        enctype="multipart/form-data"
+      >
+        <div>
+          <label for="image">Upload da imagem: </label>
+          <input type="file" id="image" name="image" value="" required />
+        </div>
+        <br />
+        <div>
+          <label for="nomeProduto">Nome do produto:</label>
+          <input
+            type="text"
+            id="nomeProduto"
+            placeholder="Exemplo: blusa"
+            value=""
+            name="nomeProduto"
+            required
+          />
+        </div>
+        <br />
+        <div>
+          <label for="descricao">Descrição do produto:</label>
+          <textarea id="descricao" name="descricao" value="" rows="4" required>
+          </textarea>
+        </div>
+        <br />
+        <div>
+          <label for="tamanho">Tamanho do produto:</label>
+          <input
+            type="text"
+            id="tamanho"
+            placeholder="Exemplo: P"
+            value=""
+            name="tamanho"
+            required
+          />
+        </div>
+        <br />
+        <div>
+          <label for="quantidade">Quantidade do produto:</label>
+          <input
+            type="text"
+            id="quantidade"
+            placeholder="Exemplo: 3"
+            value=""
+            name="quantidade"
+            required
+          />
+        </div>
+        <br />
+        <div>
+          <label for="preco">Preço do produto:</label>
+          <input
+            type="text"
+            id="preco"
+            placeholder="Exemplo: R$ 34,99"
+            value=""
+            name="preco"
+            required
+          />
+        </div>
+        <br />
+        <div>
+          <button type="submit">Cadastrar</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
